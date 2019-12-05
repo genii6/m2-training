@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+<!--        You could also set an argument within this OOTB reference block! -->
+<!--        <referenceBlock name="page.main.title">-->
+<!--            <action method="setPageTitle">-->
+<!--                <argument name="label" translate="true" xsi:type="string">Hello World</argument>-->
+<!--            </action>-->
+<!--        </referenceBlock>-->
+        <referenceContainer name="content">
+            <block name="theme.custom.block" template="Training_HelloWorldContent::template.phtml" />
+        </referenceContainer>
+    </body>
+</page>

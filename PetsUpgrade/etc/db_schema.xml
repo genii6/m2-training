@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="training_pets">
+        <column name="pet_type" xsi:type="varchar" length="100" comment="Pet Type" default="Cat"/>
+    </table>
+</schema>

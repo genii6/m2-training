@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block name="view.model.block" class="Magento\Framework\View\Element\Template"
+                   template="Training_ViewModel::viewmodel.phtml">
+                <arguments>
+                    <argument name="view_model_data" xsi:type="object">Training\ViewModel\Block\DataProviders\ViewModelData</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
