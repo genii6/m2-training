@@ -1,5 +1,6 @@
 <h2>Unit 1. Introduction</h2>
-**Module-based Architecture**
+<b>Module-based Architecture</b>
+
 * 1.1 Create an empty module in the app/code folder. Activate it and verify in app/etc/config.php that the new module is active.
 
 **Configuration XML & Variables Scope**
@@ -44,7 +45,8 @@ Disable your customization once you verify that it works, since this is not the 
 <hr/>
 
 <h2>Unit 2. Request Flow</h2>
-**Routers**
+<b>Routers</b>
+
 * 2.1 Create an extension that logs a list of routers from every request into a file. (Module: RouterListLogger) 
 
 Log the router using get_class($router)
@@ -68,7 +70,7 @@ Log the router using get_class($router)
 
 <h2>Unit 3. Customizing the Magento UI</h2>
 
-**Blocks** *(Module: ActionClassBlock)*
+<b>Blocks</b> *(Module: ActionClassBlock)*
 * 3.1 Using an action class, create and render a text block that displays "Hello World"
   * Use the Layout object to instantiate the block
   * Return a Raw result object
